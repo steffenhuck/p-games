@@ -116,6 +116,10 @@
     line-height: 1.0;
     text-transform: uppercase;
     letter-spacing: -0.01em;
+    white-space: nowrap;
+  }
+  @media (max-width: 460px) {
+    .title { white-space: normal; }
   }
   .desc {
     display: block;
@@ -168,6 +172,15 @@
           <span class="body">
             <span class="title">Typle</span>
             <span class="desc">Find three secret letters by their warmth.</span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="game" href="https://steffenhuck.github.io/one-colour">
+          <span class="num" aria-hidden="true">3</span>
+          <span class="body">
+            <span class="title">The One-Colour Problem</span>
+            <span class="desc">Different coloured squares. You hold the top-left. Catch the rest.</span>
           </span>
         </a>
       </li>
